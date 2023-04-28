@@ -11,6 +11,8 @@ struct ContentView: View {
     @State private var recognizedText: String = ""
     @State private var confirmedText: String = ""
     @State private var isShowingCamera = false
+    @State private var showAlert = false
+
 
     var body: some View {
 
@@ -41,27 +43,9 @@ struct ContentView: View {
 
         } else  {
             VStack {
-                Text("Confirmed Text:")
+                Text("質問文:")
                 Text(confirmedText)
                     .padding()
-            }
-            
-            Button (action:{
-                
-                Task.init {
-                    
-                    do {
-                        let prompt = "ChatGPTに関連するSwiftコードの例を教えてください。"
-                        let response = try await chatGPTRequest(prompt: prompt)
-                        print("Response: \(response)")
-                        
-                        confirmedText = response.last?.message["content"] ?? "no_message"
-                    } catch {
-                        print("Error: \(error.localizedDescription)")
-                    }
-                }
-            }) {
-                Text("ChatGPT")
             }
             
             CameraButton()
@@ -70,12 +54,56 @@ struct ContentView: View {
     
     func CameraButton() -> some View {
         return Button(action: {
-                confirmedText = recognizedText
-                isShowingCamera.toggle()
+            isShowingCamera.toggle()
+            if( isShowingCamera == false) {
+                showAlert = true
+            }
         }) {
             Text(isShowingCamera ? "Capture Text" : "Start Camera")
+        }.alert(isPresented: $showAlert) {
+            Alert(
+                title:    Text("質問作成"),
+                message:  Text("文字認識した内容をもとにChatGPTで質問文を作成しますか？"),
+                primaryButton: .default(Text("OK")) {
+                    confirmedText = ""
+                    Task.init {
+                        do {
+                            let templateCnt = createPromptRecovery(text:"").count
+                            let recognizeTextLimited = String(recognizedText.prefix(4096 - templateCnt))
+                            print("original:" + recognizeTextLimited)
+                            let recoveryPrompt = createPromptRecovery(text:recognizeTextLimited)
+                            
+                            let response = try await chatGPTRequest(prompt: recoveryPrompt)
+                            guard let recoveryMessage = response.last?.message["content"] else {
+                                print("Error:FormatError")
+                                return
+                            }
+                            print("recoveryMessage:" + recoveryMessage)
+                            
+                            let templateCntQuestion = createPromptQuestion(text:"").count
+                            let recoveryMessageLimited = String(recoveryMessage.prefix(4096 - templateCntQuestion))
+                            let questionPrompt = createPromptQuestion(text:recoveryMessageLimited)
+                                
+                            let responseQuestion = try await chatGPTRequest(prompt: questionPrompt)
+                            guard let recoveryMessage = responseQuestion.last?.message["content"] else {
+                                print("Error:FormatError")
+                                return
+                            }
+                            
+                            confirmedText = recoveryMessage
+                            
+                        } catch {
+                            print("Error: \(error.localizedDescription)")
+                        }
+                    }
+                    showAlert = false
+                },
+                secondaryButton: .cancel(Text("キャンセル")) {
+                    confirmedText = recognizedText
+                    showAlert = false
+                }
+            )
         }
-        
     }
 }
 

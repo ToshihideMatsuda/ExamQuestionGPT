@@ -18,8 +18,9 @@ func chatGPTRequest(prompt: String) async throws -> [Choice]{
     
     let promptData: [String: Any] = [
         "model": "gpt-3.5-turbo",
+        "temperature" : 0.2,
         "messages": [
-            ["role": "user", "content":prompt]
+            ["role": "system", "content":prompt]
         ]
     ]
     
@@ -34,7 +35,37 @@ func chatGPTRequest(prompt: String) async throws -> [Choice]{
     }
 }
 
+func createPromptQuestion(text:String) -> String {
+    let prompt = [
+    "[本文開始VRE$DFR#%ASQ]~[本文終了GM%&$%#EDF#E@]で囲まれる範囲の文に対して質問文と回答例を１つ作成してください。",
+    "質問文は１文、回答例は１００文字以内でお願いします。",
+    "あなたの回答は[フォーマット開始D&32H3aw]~[フォーマット終了%u363!@#]に囲まれるテンプレートの$質問文$と$回答例$を置換する形式で作成してください。",
+    "[本文開始VRE$DFR#%ASQ]",
+    "",
+    "[本文終了GM%&$%#EDF#E@]",
+    "[フォーマット開始D&32H3aw]",
+    "Q:$質問文$",
+    "A:$回答例$",
+    "[フォーマット開始%u363!@#]"
+    ].joined(separator: "\n")
+    return prompt
+}
 
+
+func createPromptRecovery(text:String) -> String {
+    let prompt = [
+    "[本文開始VRE$DFR#%ASQ]~[本文終了GM%&$%#EDF#E@]で囲まれる範囲の文章をOCRで認識しました。",
+    "この文章はOCRで認識したもののため、多数の誤字脱字を含むことが想定されます。",
+    "あなたはこの文章の誤字脱字を正しく補正することです。回答は[フォーマット開始D&32H3aw]~[フォーマット終了%u363!@#]に囲まれるテンプレートの$補正結果$を置換する形式で作成してください。",
+    "[本文開始VRE$DFR#%ASQ]",
+    text,
+    "[本文終了GM%&$%#EDF#E@]",
+    "[フォーマット開始D&32H3aw]",
+    "Recover:$補正結果$",
+    "[フォーマット開始%u363!@#]"
+    ].joined(separator: "\n")
+    return prompt
+}
 struct Choice {
     let message:[String:String]
     let finishi_reason:String

@@ -91,10 +91,22 @@ struct ContentView: View {
                     confirmedText = ""
                     Task.init {
                         do {
+                            let templateCnt = createPromptRecovery(text:"").count
+                            let recognizeTextLimited = String(recognizedText.prefix(4096 - templateCnt))
+                            print("original:" + recognizeTextLimited)
+                            let recoveryPrompt = createPromptRecovery(text:recognizeTextLimited)
+                            
+                            let response = try await chatGPTRequest(prompt: recoveryPrompt)
+                            guard let recoveryMessage = response.last?.message["content"] else {
+                                print("Error:FormatError")
+                                return
+                            }
+                            print("recoveryMessage:" + recoveryMessage)
+                            
                             let templateCntQuestion = createPromptQuestion(text:"").count
-                            let recoveryMessageLimited = String(recognizedText.prefix(4096 - templateCntQuestion))
-                            let questionPrompt = createPromptQuestion(text:recoveryMessageLimited)
-                                
+                            let recoveryMessageLimited = String(recoveryMessage.prefix(4096 - templateCntQuestion))
+                            let questionPrompt = createPromptRecovery(text:recoveryMessageLimited)
+                            
                             let responseQuestion = try await chatGPTRequest(prompt: questionPrompt)
                             guard let recoveryMessage = responseQuestion.last?.message["content"] else {
                                 print("Error:FormatError")

@@ -7,84 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F75F1AAD-5A5F-4946-9C2D-7DC8ACF9E9BD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ExamQuestionGPT/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "CameraButton()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F75F1AAD-5A5F-4946-9C2D-7DC8ACF9E9BD - aeecc71988682a31"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #3 () -&gt; SwiftUI.Alert in ExamQuestionGPT.ContentView.CameraButton() -&gt; some"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/toshihide/Documents/workspace/github/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "620">
-               </Location>
-               <Location
-                  uuid = "F75F1AAD-5A5F-4946-9C2D-7DC8ACF9E9BD - 90fd1f81c9449392"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #3 () -&gt; SwiftUI.Alert in ExamQuestionGPT.ContentView.CameraButton() -&gt; some"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/toshihide/Documents/workspace/github/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "F75F1AAD-5A5F-4946-9C2D-7DC8ACF9E9BD - e5536e052e06f637"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #3 () -&gt; SwiftUI.Alert in ExamQuestionGPT.ContentView.CameraButton() -&gt; some"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/toshihide/Documents/workspace/github/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "128">
-               </Location>
-               <Location
-                  uuid = "F75F1AAD-5A5F-4946-9C2D-7DC8ACF9E9BD - 9e7a5a7efd321434"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #3 () -&gt; SwiftUI.Alert in ExamQuestionGPT.ContentView.CameraButton() -&gt; some"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/toshihide/Documents/workspace/github/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "104">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "8F920124-8627-42EB-8159-EECD3C6ACF5E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -96,6 +18,22 @@
             endingLineNumber = "18"
             landmarkName = "readFile(named:withExtension:)"
             landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B96B3D51-5A46-4E29-9AAA-60815CD164EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "CameraButton()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

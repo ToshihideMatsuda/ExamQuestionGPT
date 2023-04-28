@@ -9,7 +9,7 @@ import Foundation
 let fileName = "api-key"
 let fileExtension = "txt"
 
-let apiKey = readFile(named: fileName, withExtension: fileExtension)
+let apiKey = readFile(named: fileName, withExtension: fileExtension).replacingOccurrences(of: "\n", with: "")
 
 func readFile(named fileName: String, withExtension fileExtension: String) -> String {
     if let filePath = Bundle.main.path(forResource: fileName, ofType: fileExtension) {

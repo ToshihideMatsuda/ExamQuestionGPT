@@ -6,8 +6,25 @@
 //
 
 import Foundation
+let fileName = "api-key"
+let fileExtension = "txt"
 
-let apiKey = "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"
+let apiKey = readFile(named: fileName, withExtension: fileExtension)
+
+func readFile(named fileName: String, withExtension fileExtension: String) -> String {
+    if let filePath = Bundle.main.path(forResource: fileName, ofType: fileExtension) {
+        do {
+            let contents = try String(contentsOfFile: filePath, encoding: .utf8)
+            return contents
+        } catch {
+            return ""
+        }
+    } else {
+        return ""
+    }
+}
+
+
 
 func DALLEimageRequest() async throws -> URL?{
     let url = URL(string: "https://api.openai.com/v1/images/generations")!

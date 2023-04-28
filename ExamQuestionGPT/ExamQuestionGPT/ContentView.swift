@@ -105,7 +105,7 @@ struct ContentView: View {
                             
                             let templateCntQuestion = createPromptQuestion(text:"").count
                             let recoveryMessageLimited = String(recoveryMessage.prefix(4096 - templateCntQuestion))
-                            let questionPrompt = createPromptRecovery(text:recoveryMessageLimited)
+                            let questionPrompt = createPromptQuestion(text:recoveryMessageLimited)
                             
                             let responseQuestion = try await chatGPTRequest(prompt: questionPrompt)
                             guard let recoveryMessage = responseQuestion.last?.message["content"] else {

@@ -9,6 +9,39 @@ import Foundation
 
 let apiKey = "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"
 
+func DALLEimageRequest() async throws -> URL?{
+    let url = URL(string: "https://api.openai.com/v1/images/generations")!
+    var request = URLRequest(url: url)
+    request.httpMethod = "POST"
+    request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+    request.setValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
+    
+    let promptData: [String: Any] = [
+        "prompt": "温泉に入る日本猿",
+        "n": 1,
+        "size": "512x512"
+    ]
+    
+    request.httpBody = try JSONSerialization.data(withJSONObject: promptData, options: [])
+    
+    let (responseData, _) = try await URLSession.shared.data(for: request)
+    if let responseObject = try JSONSerialization.jsonObject(with: responseData, options: []) as? [String: Any],
+       let datas = (responseObject["data"] as? [[String:Any]]){
+        
+        guard let data = datas.first, let resultURL = data["url"] as? String else {
+            throw NSError(domain: "com.example.chatgpt", code: -1, userInfo: [NSLocalizedDescriptionKey: "APIから適切なデータが取得できませんでした"])
+        }
+        
+        return URL(string: resultURL)
+    } else {
+        throw NSError(domain: "com.example.chatgpt", code: -1, userInfo: [NSLocalizedDescriptionKey: "APIから適切なデータが取得できませんでした"])
+    }
+    
+    
+}
+
+
+
 func chatGPTRequest(prompt: String) async throws -> [Choice]{
     let url = URL(string: "https://api.openai.com/v1/chat/completions")!
     var request = URLRequest(url: url)

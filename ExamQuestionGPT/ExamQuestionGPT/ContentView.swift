@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import URLImage
 
 struct ContentView: View {
     @State private var recognizedText: String = ""
     @State private var confirmedText: String = ""
     @State private var isShowingCamera = false
     @State private var showAlert = false
+    @State private var imageURL:URL? = nil
 
 
     var body: some View {
@@ -43,11 +45,32 @@ struct ContentView: View {
 
         } else  {
             VStack {
+                if let imageURL = imageURL {
+                    URLImage(imageURL){ image in
+                        image.resizable()
+                             .aspectRatio(contentMode: .fit)
+                    }
+                }
                 Text("質問文:")
                 Text(confirmedText)
                     .padding()
             }
-            
+            Button(action: {
+                Task.init {
+                    do {
+                        guard let url = try await DALLEimageRequest() else {
+                            throw NSError(domain: "com.example.chatgpt", code: -1, userInfo: [NSLocalizedDescriptionKey: "APIから適切なデータが取得できませんでした"])
+                        }
+                        
+                        imageURL = url
+                        
+                    } catch {
+                        print("Error: \(error.localizedDescription)")
+                    }
+                }
+            }){
+                Text("CreateImage")
+            }
             CameraButton()
         }
     }

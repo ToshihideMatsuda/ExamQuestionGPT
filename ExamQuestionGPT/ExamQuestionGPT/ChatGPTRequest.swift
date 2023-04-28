@@ -7,7 +7,7 @@
 
 import Foundation
 
-let apiKey = "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"
+let apiKey = "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"
 
 func DALLEimageRequest() async throws -> URL?{
     let url = URL(string: "https://api.openai.com/v1/images/generations")!

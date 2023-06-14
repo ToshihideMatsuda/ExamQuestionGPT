@@ -17,7 +17,6 @@ struct ContentView: View {
 
 
     var body: some View {
-
         if isShowingCamera {
             ZStack {
                 CameraView(recognizedText: $recognizedText)
@@ -72,6 +71,18 @@ struct ContentView: View {
                 Text("CreateImage")
             }
             CameraButton()
+            Button(action: {
+                Task.detached{
+                    do
+                    {
+                        try await testChatGPTFunc()
+                    } catch {
+                        print("Error: \(error.localizedDescription)")
+                    }
+                }
+            }) {
+                Text("test Chat GPT")
+            }
         }
     }
     

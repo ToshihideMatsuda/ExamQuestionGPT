@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		899CD77529FC14F100D85E7F /* api-key.txt in Resources */ = {isa = PBXBuildFile; fileRef = 899CD77429FC14F100D85E7F /* api-key.txt */; };
 		D2E3621829F6243C0039F248 /* ExamQuestionGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3621729F6243C0039F248 /* ExamQuestionGPTApp.swift */; };
 		D2E3621A29F6243C0039F248 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3621929F6243C0039F248 /* ContentView.swift */; };
 		D2E3621C29F6243D0039F248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E3621B29F6243D0039F248 /* Assets.xcassets */; };
@@ -40,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		899CD77429FC14F100D85E7F /* api-key.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "api-key.txt"; sourceTree = "<group>"; };
+		D28707392A39652E00CC8BB2 /* api-key.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "api-key.txt"; sourceTree = "<group>"; };
 		D2E3621429F6243C0039F248 /* ExamQuestionGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamQuestionGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E3621729F6243C0039F248 /* ExamQuestionGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamQuestionGPTApp.swift; sourceTree = "<group>"; };
 		D2E3621929F6243C0039F248 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,7 +112,7 @@
 				D2E3621D29F6243D0039F248 /* Preview Content */,
 				D2E3624429F625E80039F248 /* CameraView.swift */,
 				D2E3624829F63CEF0039F248 /* ChatGPTRequest.swift */,
-				899CD77429FC14F100D85E7F /* api-key.txt */,
+				D28707392A39652E00CC8BB2 /* api-key.txt */,
 			);
 			path = ExamQuestionGPT;
 			sourceTree = "<group>";
@@ -262,7 +261,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899CD77529FC14F100D85E7F /* api-key.txt in Resources */,
 				D2E3621F29F6243D0039F248 /* Preview Assets.xcassets in Resources */,
 				D2E3621C29F6243D0039F248 /* Assets.xcassets in Resources */,
 			);

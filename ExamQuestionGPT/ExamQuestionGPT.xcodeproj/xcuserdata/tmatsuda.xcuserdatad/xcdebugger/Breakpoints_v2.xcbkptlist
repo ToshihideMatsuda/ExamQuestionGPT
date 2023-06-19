@@ -23,22 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "30D50258-4B81-4D73-90CD-F91FA7ABCB38"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "243"
-            endingLineNumber = "243"
-            landmarkName = "next(arguments:message:function_name:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "FE9C1002-078A-4CEB-AE03-D032CE5CBA49"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -46,86 +30,11 @@
             filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "298"
-            endingLineNumber = "298"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
             landmarkName = "next2(_messages:message:)"
             landmarkType = "9">
             <Locations>
-               <Location
-                  uuid = "FE9C1002-078A-4CEB-AE03-D032CE5CBA49 - 4d86a6b675ae4c01"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for ExamQuestionGPT.next2(_messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, message: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; ()"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "300"
-                  endingLineNumber = "300"
-                  offsetFromSymbolStart = "3052">
-               </Location>
-               <Location
-                  uuid = "FE9C1002-078A-4CEB-AE03-D032CE5CBA49 - 88ad70b2dbf70803"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for ExamQuestionGPT.next2(_messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, message: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; ()"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "300"
-                  endingLineNumber = "300"
-                  offsetFromSymbolStart = "6048">
-               </Location>
-               <Location
-                  uuid = "FE9C1002-078A-4CEB-AE03-D032CE5CBA49 - cbcb02bf41d9c405"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for ExamQuestionGPT.next2(_messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, message: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; ()"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "300"
-                  endingLineNumber = "300"
-                  offsetFromSymbolStart = "264">
-               </Location>
-               <Location
-                  uuid = "FE9C1002-078A-4CEB-AE03-D032CE5CBA49 - b5442bb9facd2204"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(6) suspend resume partial function for ExamQuestionGPT.next2(_messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, message: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; ()"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "300"
-                  endingLineNumber = "300"
-                  offsetFromSymbolStart = "216">
-               </Location>
-               <Location
-                  uuid = "FE9C1002-078A-4CEB-AE03-D032CE5CBA49 - 16f1ccb834228007"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for ExamQuestionGPT.next2(_messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, message: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; ()"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "300"
-                  endingLineNumber = "300"
-                  offsetFromSymbolStart = "764">
-               </Location>
                <Location
                   uuid = "FE9C1002-078A-4CEB-AE03-D032CE5CBA49 - 88ad70b2dbf70845"
                   shouldBeEnabled = "Yes"
@@ -141,6 +50,36 @@
                   endingLineNumber = "298"
                   offsetFromSymbolStart = "5284">
                </Location>
+               <Location
+                  uuid = "FE9C1002-078A-4CEB-AE03-D032CE5CBA49 - 88ad70b2dbf70803"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ExamQuestionGPT.next2(_messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, message: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "300"
+                  endingLineNumber = "300"
+                  offsetFromSymbolStart = "1912">
+               </Location>
+               <Location
+                  uuid = "FE9C1002-078A-4CEB-AE03-D032CE5CBA49 - 88ad70b2dbf709b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ExamQuestionGPT.next2(_messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, message: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "1912">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -154,26 +93,11 @@
             filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "348"
-            endingLineNumber = "348"
+            startingLineNumber = "343"
+            endingLineNumber = "343"
             landmarkName = "next3(arguments:function_name:_messages:)"
             landmarkType = "9">
             <Locations>
-               <Location
-                  uuid = "1488A4E0-8E15-48E1-9798-9A64AE9E0FAA - 931c9f2bd3473214"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for ExamQuestionGPT.next3(arguments: Swift.String, function_name: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) async throws -&gt; ()"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "349"
-                  endingLineNumber = "349"
-                  offsetFromSymbolStart = "2948">
-               </Location>
                <Location
                   uuid = "1488A4E0-8E15-48E1-9798-9A64AE9E0FAA - 931c9f2bd3473275"
                   shouldBeEnabled = "Yes"
@@ -189,6 +113,36 @@
                   endingLineNumber = "348"
                   offsetFromSymbolStart = "2316">
                </Location>
+               <Location
+                  uuid = "1488A4E0-8E15-48E1-9798-9A64AE9E0FAA - 686fb9ea2c24cf83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ExamQuestionGPT.next3(arguments: Swift.String, function_name: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "348"
+                  endingLineNumber = "348"
+                  offsetFromSymbolStart = "2808">
+               </Location>
+               <Location
+                  uuid = "1488A4E0-8E15-48E1-9798-9A64AE9E0FAA - 686fb9ea2c24ced8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ExamQuestionGPT.next3(arguments: Swift.String, function_name: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "343"
+                  endingLineNumber = "343"
+                  offsetFromSymbolStart = "2808">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -202,26 +156,11 @@
             filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "346"
-            endingLineNumber = "346"
+            startingLineNumber = "341"
+            endingLineNumber = "341"
             landmarkName = "next3(arguments:function_name:_messages:)"
             landmarkType = "9">
             <Locations>
-               <Location
-                  uuid = "2B50B178-72EA-41AC-BDCB-4028E4897C6E - 931c9f2bd3473252"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for ExamQuestionGPT.next3(arguments: Swift.String, function_name: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) async throws -&gt; ()"
-                  moduleName = "ExamQuestionGPT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "347"
-                  endingLineNumber = "347"
-                  offsetFromSymbolStart = "2316">
-               </Location>
                <Location
                   uuid = "2B50B178-72EA-41AC-BDCB-4028E4897C6E - 931c9f2bd34732b3"
                   shouldBeEnabled = "Yes"
@@ -236,6 +175,511 @@
                   startingLineNumber = "346"
                   endingLineNumber = "346"
                   offsetFromSymbolStart = "2204">
+               </Location>
+               <Location
+                  uuid = "2B50B178-72EA-41AC-BDCB-4028E4897C6E - 686fb9ea2c24cf83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ExamQuestionGPT.next3(arguments: Swift.String, function_name: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "348"
+                  endingLineNumber = "348"
+                  offsetFromSymbolStart = "2808">
+               </Location>
+               <Location
+                  uuid = "2B50B178-72EA-41AC-BDCB-4028E4897C6E - 686fb9ea2c24ced8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ExamQuestionGPT.next3(arguments: Swift.String, function_name: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "343"
+                  endingLineNumber = "343"
+                  offsetFromSymbolStart = "2808">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32B5BC61-504E-45BC-8476-386347910869"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "374"
+            endingLineNumber = "374"
+            landmarkName = "getInfo(function_name:argumentsJson:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "32B5BC61-504E-45BC-8476-386347910869 - 67f67fc4c4a5140b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestionGPT.getInfo(function_name: Swift.String, argumentsJson: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.String"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "374"
+                  endingLineNumber = "374"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "32B5BC61-504E-45BC-8476-386347910869 - 67f67fc4c4a5140b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestionGPT.getInfo(function_name: Swift.String, argumentsJson: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.String"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "374"
+                  endingLineNumber = "374"
+                  offsetFromSymbolStart = "676">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5268663D-FE70-4E89-AF4A-88B4C4865249"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "377"
+            endingLineNumber = "377"
+            landmarkName = "getInfo(function_name:argumentsJson:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "5268663D-FE70-4E89-AF4A-88B4C4865249 - 67f67fc4c4a51594"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestionGPT.getInfo(function_name: Swift.String, argumentsJson: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.String"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "377"
+                  endingLineNumber = "377"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "5268663D-FE70-4E89-AF4A-88B4C4865249 - 67f67fc4c4a51594"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestionGPT.getInfo(function_name: Swift.String, argumentsJson: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.String"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "377"
+                  endingLineNumber = "377"
+                  offsetFromSymbolStart = "840">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBBD4FEC-D7C6-49A9-BB2C-0BFDB70F7ED0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
+            landmarkName = "next(arguments:_messages:function_name:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "BBBD4FEC-D7C6-49A9-BB2C-0BFDB70F7ED0 - e07299b474589105"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ExamQuestionGPT.next(arguments: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, function_name: Swift.String) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "252"
+                  endingLineNumber = "252"
+                  offsetFromSymbolStart = "2080">
+               </Location>
+               <Location
+                  uuid = "BBBD4FEC-D7C6-49A9-BB2C-0BFDB70F7ED0 - 4daa35bead284a5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for ExamQuestionGPT.next(arguments: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, function_name: Swift.String) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "252"
+                  endingLineNumber = "252"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "BBBD4FEC-D7C6-49A9-BB2C-0BFDB70F7ED0 - a9cfee67b31e4c9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for ExamQuestionGPT.next(arguments: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, function_name: Swift.String) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "BBBD4FEC-D7C6-49A9-BB2C-0BFDB70F7ED0 - a9cfee67b31e4d3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for ExamQuestionGPT.next(arguments: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, function_name: Swift.String) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "252"
+                  endingLineNumber = "252"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "BBBD4FEC-D7C6-49A9-BB2C-0BFDB70F7ED0 - 7358c316f1ddf88c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for ExamQuestionGPT.next(arguments: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, function_name: Swift.String) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "BBBD4FEC-D7C6-49A9-BB2C-0BFDB70F7ED0 - 7358c316f1ddf929"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for ExamQuestionGPT.next(arguments: Swift.String, _messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, function_name: Swift.String) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "252"
+                  endingLineNumber = "252"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAA7DFE8-7085-4321-9FC8-A6C53016678A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "371"
+            endingLineNumber = "371"
+            landmarkName = "getInfo(function_name:argumentsJson:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "AAA7DFE8-7085-4321-9FC8-A6C53016678A - 67f67fc4c4a5146e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestionGPT.getInfo(function_name: Swift.String, argumentsJson: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.String"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "371"
+                  endingLineNumber = "371"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "AAA7DFE8-7085-4321-9FC8-A6C53016678A - 67f67fc4c4a5146e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestionGPT.getInfo(function_name: Swift.String, argumentsJson: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.String"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "371"
+                  endingLineNumber = "371"
+                  offsetFromSymbolStart = "520">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D11E96F2-5E5E-4A0E-80E4-A687FFD90E0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "372"
+            endingLineNumber = "372"
+            landmarkName = "getInfo(function_name:argumentsJson:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "D11E96F2-5E5E-4A0E-80E4-A687FFD90E0B - 67f67fc4c4a51449"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestionGPT.getInfo(function_name: Swift.String, argumentsJson: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.String"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "D11E96F2-5E5E-4A0E-80E4-A687FFD90E0B - 67f67fc4c4a51449"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestionGPT.getInfo(function_name: Swift.String, argumentsJson: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.String"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "600">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B4E0889-E5C7-4C09-8C2F-2A7EAA9EAC5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "readFile(named:withExtension:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61B3CEB0-2A7B-4191-B712-EA8D54EA697D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "DALLEimageRequest()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F854FD17-E652-4CAD-BBFF-40A80EE66A61"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "DALLEimageRequest()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A39F04C9-99F8-4F1C-B063-F31B6EA0EBF4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "chatGPTRequest(prompt:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6276009-A54B-4342-B014-1EA43F683C80"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "chatGPTRequest(prompt:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "E6276009-A54B-4342-B014-1EA43F683C80 - a8463959feb24649"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ExamQuestionGPT.chatGPTRequest(prompt: Swift.String) async throws -&gt; Swift.Array&lt;ExamQuestionGPT.Choice&gt;"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "1176">
+               </Location>
+               <Location
+                  uuid = "E6276009-A54B-4342-B014-1EA43F683C80 - a8463959feb24649"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ExamQuestionGPT.chatGPTRequest(prompt: Swift.String) async throws -&gt; Swift.Array&lt;ExamQuestionGPT.Choice&gt;"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "1392">
+               </Location>
+               <Location
+                  uuid = "E6276009-A54B-4342-B014-1EA43F683C80 - e0369a6506468aab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ExamQuestionGPT.Choice in ExamQuestionGPT.chatGPTRequest(prompt: Swift.String) async throws -&gt; Swift.Array&lt;ExamQuestionGPT.Choice&gt;"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "229D6BB8-80E2-4CE6-BCC5-8D8330204774"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
+            landmarkName = "next2(_messages:message:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "229D6BB8-80E2-4CE6-BCC5-8D8330204774 - 88ad70b2dbf7095d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ExamQuestionGPT.next2(_messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, message: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "290"
+                  endingLineNumber = "290"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "229D6BB8-80E2-4CE6-BCC5-8D8330204774 - 88ad70b2dbf7095d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ExamQuestionGPT.next2(_messages: Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, message: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; ()"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "290"
+                  endingLineNumber = "290"
+                  offsetFromSymbolStart = "1132">
                </Location>
             </Locations>
          </BreakpointContent>

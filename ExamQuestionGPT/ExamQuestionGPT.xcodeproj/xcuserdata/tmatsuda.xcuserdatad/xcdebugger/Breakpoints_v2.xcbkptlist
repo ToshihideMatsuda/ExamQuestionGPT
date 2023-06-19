@@ -512,22 +512,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5B4E0889-E5C7-4C09-8C2F-2A7EAA9EAC5C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "readFile(named:withExtension:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "61B3CEB0-2A7B-4191-B712-EA8D54EA697D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -560,24 +544,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A39F04C9-99F8-4F1C-B063-F31B6EA0EBF4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "chatGPTRequest(prompt:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "E6276009-A54B-4342-B014-1EA43F683C80"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
@@ -680,6 +648,54 @@
                   startingLineNumber = "290"
                   endingLineNumber = "290"
                   offsetFromSymbolStart = "1132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3FB7C5C-0031-4505-8EAE-2D9F70D4F844"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestionGPT/ChatGPTRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "readFile(named:withExtension:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "D3FB7C5C-0031-4505-8EAE-2D9F70D4F844 - 92ee263368e4a560"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestionGPT.readFile(named: Swift.String, withExtension: Swift.String) -&gt; Swift.String"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "760">
+               </Location>
+               <Location
+                  uuid = "D3FB7C5C-0031-4505-8EAE-2D9F70D4F844 - 92ee263368e4a560"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestionGPT.readFile(named: Swift.String, withExtension: Swift.String) -&gt; Swift.String"
+                  moduleName = "ExamQuestionGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmatsuda/Documents/github/mine/ExamQuestionGPT/ExamQuestionGPT/ExamQuestionGPT/ChatGPTRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "756">
                </Location>
             </Locations>
          </BreakpointContent>

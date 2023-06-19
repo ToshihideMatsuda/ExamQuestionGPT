@@ -17,10 +17,10 @@ func readFile(named fileName: String, withExtension fileExtension: String) -> St
             let contents = try String(contentsOfFile: filePath, encoding: .utf8)
             return contents
         } catch {
-            return "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"
+            return ""
         }
     } else {
-        return "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"
+        return ""
     }
 }
 
